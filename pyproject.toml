@@ -3,15 +3,15 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "{{agent_name}}"
+name = "hf-mcp-agent"
 version = "0.1.0"
-description = "{{agent_description}}"
+description = "Pydantic AI agent for searching Hugging Face hub (models, papers, datasets) and generating images via MCP tools"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{ name = "Flow AI", email = "support@flow-ai.com" }]
 dependencies = [
   "pydantic-ai>=0.7.4",
-  "python-dotenv>=1.1.1"
+  "python-dotenv>=1.1.1",
   "logfire>=4.3.4",
 ]
 
